@@ -1,0 +1,30 @@
+
+Browser->Server: HTTP/GET() URL: https://studies.cs.helsinki.fi/exampleapp/notes
+
+Server-->Browser: Response with /TEXT/HTML charset=UTF-8
+
+
+Browser->Server: HTTP/GET() CSS: https://studies.cs.helsinki.fi/exampleapp/main.css
+
+Server-->Browser: Response with TEXT/CSS; charset=UTF-8
+
+
+Browser->Server: HTTP/GET() JS: https://studies.cs.helsinki.fi/exampleapp/main.js
+
+Server-->Browser: Response with application/javascript; charset=UTF-8
+
+
+Browser->Server: HTTP/GET() JS: https://studies.cs.helsinki.fi/exampleapp/data.json
+
+Server-->Browser: Response with application/json; charset=utf-8
+
+
+
+Browser->Server: HTTP/POST() text/html; charset=utf-8 : https://studies.cs.helsinki.fi/exampleapp/new_note
+
+
+
+Server->Browser: Reload all with then new refresh
+
+
+end note
